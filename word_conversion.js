@@ -1,4 +1,4 @@
-const fs = require('fs'); //file system module for processing files
+const fs = require('fs');
 const csv = require('csv-parser');
 const startTime = performance.now() 
 var word_li = fs.readFileSync('find_words.txt').toString().split("\n") 
